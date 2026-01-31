@@ -58,7 +58,7 @@
                 <h1 class="error">Authorization Error</h1>
                 <p>Error: ${error}</p>
                 <p>${errorDesc || ''}</p>
-                <p><a href="/">Back to Home</a></p>
+                <p><a href="index.html">Back to Home</a></p>
             `;
         } else if (code) {
             content.innerHTML = `
@@ -76,7 +76,7 @@
             content.innerHTML = `
                 <h1>OAuth Callback</h1>
                 <p>No authorization code received.</p>
-                <p><a href="/">Back to Home</a></p>
+                <p><a href="index.html">Back to Home</a></p>
             `;
         }
     </script>
